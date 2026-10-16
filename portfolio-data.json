@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "title": "Portfolio / Character Arc Engine",
+      "pill": "Narrative UI",
+      "desc": "Scroll-scrubbed Loki timeline, ambient synth audio and a live side-by-side code playground. Edit this card in Admin Studio.",
+      "tags": ["HTML", "CSS", "GSAP"],
+      "lang": "html",
+      "code": "<main style='font-family:system-ui;background:#080d0a;color:#f1f5ee;padding:28px;border-radius:16px'>\n  <h2 style='color:#b7e36b;margin:0'>Loki Arc Engine</h2>\n  <p>Scroll-reactive timeline active.</p>\n  <button onclick=\"this.textContent='Timeline secured ✓'\" style='background:#b7e36b;border:0;padding:9px 12px;border-radius:8px;font-weight:800;cursor:pointer'>Secure timeline</button>\n</main>"
+    },
+    {
+      "title": "DSA Matrix & Algorithm Lab",
+      "pill": "In progress",
+      "desc": "Interactive algorithm demos with split Code | Result view. Click Code | Result to try it inline.",
+      "tags": ["DSA", "Algorithms", "JavaScript"],
+      "lang": "js",
+      "code": "// Matrix Transpose — see console output on the right\nconst matrix=[[1,2,3],[4,5,6]];\nconst transpose=m=>m[0].map((_,i)=>m.map(r=>r[i]));\nconsole.log('Original:',JSON.stringify(matrix));\nconsole.log('Transposed:',JSON.stringify(transpose(matrix)));"
+    }
+  ]
+}
